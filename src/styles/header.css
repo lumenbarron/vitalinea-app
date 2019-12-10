@@ -1,0 +1,330 @@
+.nav-bar {
+  width: 100%;
+  text-align: right;
+  line-height: 80px;
+  height: auto;
+  min-height: 80px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.67)));
+  background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.67));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav-bar .logo-vitalinea {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  margin: 0 20px;
+  line-height: 80px;
+}
+
+.menu a img {
+  margin-bottom: -0.5rem;
+}
+
+label {
+  margin: 1rem 1rem 0;
+  display: none;
+  line-height: 80px;
+}
+
+#toggle {
+  display: none;
+}
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header-content-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-bote-fresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.img-bote-fresa img {
+  max-width: 55%;
+  margin-top: 1rem;
+}
+
+.flavor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0.9rem;
+  margin-top: -5rem;
+}
+
+.flavor button {
+  width: 70px;
+  height: 23px;
+  border-radius: 11.5px;
+  font-size: 12px;
+  border-style: none;
+  margin: 0 0.2rem;
+}
+
+.flavor p {
+  margin-bottom: 0;
+}
+
+.flavor .active {
+  background: rgba(255, 0, 0, 0.2);
+}
+
+.flavor .desactive {
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+  color: #78246d;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.flavor-text {
+  padding: 0.9rem;
+}
+
+.flavor-text button {
+  width: 100%;
+  background: #78246d;
+  color: white;
+  border-style: none;
+  padding: 1rem;
+}
+
+.flavor-text .brands {
+  margin: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flavor-text .brands img {
+  margin: 0 1rem;
+}
+
+.flavor-text .round-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flavor-text .round {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+@media screen and (max-width: 576px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a {
+    display: block;
+    border-bottom: 1px solid #78246d;
+    margin: 0;
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .img-bote-fresa {
+    width: 40%;
+  }
+  .img-bote-fresa img {
+    max-width: 100%;
+    margin-top: 4.5rem;
+  }
+  .header-content-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 60%;
+  }
+  .flavor {
+    margin: 0;
+  }
+  .flavor-text button {
+    width: 15.5rem;
+  }
+  .flavor-text .brands {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .flavor-text .round-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 5rem;
+  }
+  .flavor-text .round-container .round {
+    margin-left: 7rem;
+  }
+  h4 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-content-info {
+    padding-right: 20%;
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (min-width: 1430px) {
+  .img-bote-fresa {
+    padding-left: 20%;
+  }
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,23 @@
+@import "./global.scss";
+
+.footer-content{
+    padding: 2rem .9rem;
+    .footer-brands{
+        @include flex(row, space-between);
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
+@include lg{
+    .footer-content{
+        .footer-text{
+            margin-top: -4rem;
+            margin-right: 60%;
+        }
+    }
+  }
+

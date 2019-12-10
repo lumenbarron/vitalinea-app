@@ -1,0 +1,20 @@
+@import "./global.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    width: 100%;
+    background: url(./../images/background-web.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    @include xs {
+      background: url(./../images/background-mobile-a.png);
+    }
+  }

@@ -1,0 +1,67 @@
+@import "./global.scss";
+
+.family-content {
+  background: url(./../images/bg-familia-vitalinea.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: $primary-color;
+  h3 {
+    text-align: center;
+    font-weight: 300;
+    padding: 2rem 0 7rem 0;
+  }
+  .family-imgs {
+    @include flex-baseline(row, baseline);
+    .img-family {
+      width: 40%;
+      @include flex-align(center, center);
+      img {
+        max-width: 100%;
+        height: 106px;
+      }
+      .img-sin-azucar {
+        height: 134px;
+      }
+      .img-bebible {
+        height: 414px;
+      }
+    }
+  }
+  p {
+    font-size: 11px;
+  }
+}
+
+
+@include sm-min{
+  .family-content{
+    h3{
+      font-size: 40px;
+      padding: 3rem 0 5rem 0;
+    }
+    .family-imgs{
+      .img-family {
+        img {
+          max-width: 100%;
+          height: 212px;
+        }
+        .img-sin-azucar {
+          height: 267px;
+        }
+        .img-bebible {
+          height: 414px;
+        }
+      }
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@include md-max{
+  #bebible {
+    display: none;
+  }
+}

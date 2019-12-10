@@ -1,0 +1,90 @@
+.family-content {
+  background: url(./../images/bg-familia-vitalinea.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: #78246d;
+}
+
+.family-content h3 {
+  text-align: center;
+  font-weight: 300;
+  padding: 2rem 0 7rem 0;
+}
+
+.family-content .family-imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.family-content .family-imgs .img-family {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.family-content .family-imgs .img-family img {
+  max-width: 100%;
+  height: 106px;
+}
+
+.family-content .family-imgs .img-family .img-sin-azucar {
+  height: 134px;
+}
+
+.family-content .family-imgs .img-family .img-bebible {
+  height: 414px;
+}
+
+.family-content p {
+  font-size: 11px;
+}
+
+@media screen and (min-width: 576px) {
+  .family-content h3 {
+    font-size: 40px;
+    padding: 3rem 0 5rem 0;
+  }
+  .family-content .family-imgs .img-family img {
+    max-width: 100%;
+    height: 212px;
+  }
+  .family-content .family-imgs .img-family .img-sin-azucar {
+    height: 267px;
+  }
+  .family-content .family-imgs .img-family .img-bebible {
+    height: 414px;
+  }
+  .family-content p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #bebible {
+    display: none;
+  }
+}
+/*# sourceMappingURL=family.css.map */

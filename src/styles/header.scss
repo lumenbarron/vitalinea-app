@@ -1,0 +1,194 @@
+@import "./global.scss";
+
+.nav-bar {
+  width: 100%;
+  text-align: right;
+  line-height: 80px;
+  height: auto;
+  min-height: 80px;
+  background-image: linear-gradient(
+    to bottom,
+    white,
+    rgba(255, 255, 255, 0.67)
+  );
+  @include flex(row, space-between);
+  .logo-vitalinea {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.menu {
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    line-height: 80px;
+    img {
+      margin-bottom: -0.5rem;
+    }
+  }
+}
+
+label {
+  margin: 1rem 1rem 0;
+  display: none;
+  line-height: 80px;
+}
+
+#toggle {
+  display: none;
+}
+
+.header-content {
+  @include flex(row, center);
+}
+
+.header-content-info {
+  @include flex-baseline(column, center);
+}
+
+.img-bote-fresa {
+  @include flex(row, center);
+  img {
+    max-width: 55%;
+    margin-top: 1rem;
+  }
+}
+
+.flavor {
+  @include flex(row, space-around);
+  padding: 0.9rem;
+  margin-top: -5rem;
+  button {
+    width: 70px;
+    height: 23px;
+    border-radius: 11.5px;
+    font-size: 12px;
+    border-style: none;
+    margin: 0 0.2rem;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .active {
+    background: rgba(255, 0, 0, 0.2);
+  }
+  .desactive {
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+h4 {
+  color: $primary-color;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.flavor-text {
+  padding: 0.9rem;
+  button {
+    width: 100%;
+    background: $primary-color;
+    color: white;
+    border-style: none;
+    padding: 1rem;
+  }
+
+  .brands {
+    margin: 2rem 0;
+    @include flex(row, center);
+    img {
+      margin: 0 1rem;
+    }
+  }
+  .round-container {
+    @include flex(row, center);
+  }
+  .round {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0;
+  }
+}
+
+@include sm {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    a {
+      display: block;
+      border-bottom: 1px solid $primary-color;
+      margin: 0;
+    }
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+}
+
+@include sm-min {
+  .img-bote-fresa {
+    width: 40%;
+    img {
+      max-width: 100%;
+      margin-top: 4.5rem;
+    }
+  }
+  .header-content-info {
+    @include flex-baseline(column, flex-start);
+    width: 60%;
+  }
+  .flavor {
+    margin: 0;
+  }
+
+  .flavor-text {
+    button {
+      width: 15.5rem;
+    }
+    .brands {
+      @include flex(row, flex-start);
+    }
+    .round-container {
+      @include flex(row, flex-start);
+      margin-top: 5rem;
+      .round {
+        margin-left: 7rem;
+      }
+    }
+  }
+  h4 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
+
+@include lg {
+  .header-content-info {
+    padding-right: 20%;
+    margin-top: 10rem;
+  }
+}
+
+@include xxl {
+  .img-bote-fresa {
+    padding-left: 20%;
+  }
+}

@@ -1,0 +1,35 @@
+.footer-content {
+  padding: 2rem .9rem;
+}
+
+.footer-content .footer-brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.footer-content p {
+  font-size: 11px;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .footer-content .footer-text {
+    margin-top: -4rem;
+    margin-right: 60%;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
