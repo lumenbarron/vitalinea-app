@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/vitalinea-app/static/css/main.25e47495.chunk.css",
+    "main.js": "/vitalinea-app/static/js/main.49294b4a.chunk.js",
+    "main.js.map": "/vitalinea-app/static/js/main.49294b4a.chunk.js.map",
+    "runtime-main.js": "/vitalinea-app/static/js/runtime-main.93a23385.js",
+    "runtime-main.js.map": "/vitalinea-app/static/js/runtime-main.93a23385.js.map",
+    "static/js/2.026d49e4.chunk.js": "/vitalinea-app/static/js/2.026d49e4.chunk.js",
+    "static/js/2.026d49e4.chunk.js.map": "/vitalinea-app/static/js/2.026d49e4.chunk.js.map",
+    "index.html": "/vitalinea-app/index.html",
+    "precache-manifest.0848c483c24f8152bba226006d38b2f7.js": "/vitalinea-app/precache-manifest.0848c483c24f8152bba226006d38b2f7.js",
+    "service-worker.js": "/vitalinea-app/service-worker.js",
+    "static/css/main.25e47495.chunk.css.map": "/vitalinea-app/static/css/main.25e47495.chunk.css.map",
+    "static/js/2.026d49e4.chunk.js.LICENSE": "/vitalinea-app/static/js/2.026d49e4.chunk.js.LICENSE",
+    "static/media/app.css": "/vitalinea-app/static/media/background-web.0e2e75af.png",
+    "static/media/family.css": "/vitalinea-app/static/media/bg-familia-vitalinea.487a2166.png",
+    "static/media/img-bote-fresa.png": "/vitalinea-app/static/media/img-bote-fresa.4d881491.png",
+    "static/media/img-vitalinea-bebible.png": "/vitalinea-app/static/media/img-vitalinea-bebible.8fb98711.png",
+    "static/media/img-vitalinea-griego.png": "/vitalinea-app/static/media/img-vitalinea-griego.ee256133.png",
+    "static/media/img-vitalinea-sin-azucar.png": "/vitalinea-app/static/media/img-vitalinea-sin-azucar.aaf84db0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93a23385.js",
+    "static/js/2.026d49e4.chunk.js",
+    "static/css/main.25e47495.chunk.css",
+    "static/js/main.49294b4a.chunk.js"
+  ]
+}
